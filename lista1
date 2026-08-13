@@ -22,8 +22,6 @@ int main(int argc, char *argv[]) {
 	
 	printf("%d, %d\n", primeiro, segundo);
 	
-	
-	
 	//primeiro ex
 	
 	double numero, mantissa;
@@ -45,8 +43,7 @@ int main(int argc, char *argv[]) {
     printf("Valor em notacao cientifica: %.2lf x 10^%d\n", mantissa, expoente);
 	
 	
-	
-	//segundo ex fazer sem %e
+	//segundo ex
 	
 	
 	
@@ -65,6 +62,8 @@ int main(int argc, char *argv[]) {
 	total = venda + comi + salario;
 	
 	printf( "%.2f", total);
+
+// Terceiro ex
 
 	
 	
