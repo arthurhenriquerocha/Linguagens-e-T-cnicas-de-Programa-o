@@ -92,7 +92,7 @@ int main(int argc, char *argv[]) {
 	comi = venda *0.15;
 	
 	
-	total = venda + comi + salario;
+	total = comi + salario;
 	
 	printf( "%.2f\n\n", total);
 
