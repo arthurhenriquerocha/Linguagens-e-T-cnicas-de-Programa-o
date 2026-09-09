@@ -28,10 +28,10 @@ printf("Insira o tempo em segundos: \n");
 scanf("%d", &segundos);
 hor = segundos /3600;
 min = (segundos - (segundos%3600)) / 60;
-segundos = segundos - ((hor * 3600) + (min*60));
+segundos = %60;
 printf("\t %d: %d: %d", hor, min, segundos);
 }
-
+//arrumar 
 
 
 
