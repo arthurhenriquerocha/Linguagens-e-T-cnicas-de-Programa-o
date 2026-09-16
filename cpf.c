@@ -57,6 +57,37 @@ int main(int argc, char *argv[]) {
     } else {
         printf("\n\nCPF Invalido!");
     }
-
+/*
+int main(int argc, char *argv[])
+{
+  float n1, n2, n3, media;
+  
+  printf("Digite sua primeira nota: \n");
+  scanf("%f", &n1);
+  
+  printf("Digite sua segunda nota: \n");
+  scanf("%f", &n2);
+  
+  printf("Digite sua terceira nota: \n");
+  scanf("%f", &n3); 
+  
+  
+  media = (n1 + n2 + n3)/3;
+  
+  printf("Media = %f", media);
+  
+  if (media >= 7){
+    printf("\033[1;34mVoce foi aprovado!!\033[0m\n");
+  }
+  
+  else if(media >= 4){
+    printf("\033[42mVoce vai para o exame final!!\033[0m\n");
+  }
+  
+  else{
+    printf("\033[31mReprovado!!\033[0m\n");
+  }
+  
+ */ 
     return 0;
 }
