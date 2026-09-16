@@ -18,6 +18,13 @@ scanf("%f", &tempc);
 
 tempf = tempc * (9.0 / 5.0) + 32.0;
 printf("Os %f C° são %f F \n", tempc, tempf );
+
+printf("Insira a temperatua em F para a conversão: \n");
+scanf("%f", &tempf);
+
+
+tempc = (tempf - 32) * 5/9;
+printf("Os %f F são %f C° \n", tempf, tempc);
 }
 
 
